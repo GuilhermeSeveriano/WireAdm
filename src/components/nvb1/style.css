@@ -1,0 +1,33 @@
+.desc{
+    color:#fff
+}
+
+.selosuibra img{
+    height: 2.5em;
+    width: auto;
+    margin: 0;
+}
+.selosuibra{
+    text-align: center;
+    color:#fff;
+    padding-right: 1em;
+    font-weight: bold;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content:space-between;
+}
+
+.selosuibra a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav-item a{
+    color:#fff;
+}
+
+.nav-item a:hover{
+    cursor: pointer;
+}

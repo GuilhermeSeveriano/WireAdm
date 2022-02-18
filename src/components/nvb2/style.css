@@ -1,0 +1,50 @@
+.geral{
+    height:100vh ;
+    width: 28vh;
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: #1e1e1e;
+}
+.logoSenai{
+    padding: 0.5em;
+}
+.logoSenai img{
+    height: auto;
+    width: 25vh;
+}
+
+.areafuncao{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.funcao{
+    display: flex;
+    height: 3.6em;
+    padding: 1em;
+    justify-content: start;
+    color:#fff;
+    text-align: center;  
+    border-style:solid; 
+    border-color: #262626; 
+}
+.funcao:hover{
+    background-color: #900000;
+    cursor: pointer;
+}
+
+
+.nomeFuncao{
+    font-weight: bold;
+
+    height: 1.3em;
+}
+
+.nomeFuncao:hover{
+    cursor: pointer;
+}

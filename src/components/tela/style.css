@@ -1,0 +1,75 @@
+.telagem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nome-artigo{
+    padding-left: 1em;
+    text-decoration: underline;
+}
+.nom{
+    text-align: center;
+    font-weight: bold;
+    width: 5em;
+    padding-right: 1em;
+}
+
+
+
+
+
+.nom:hover{
+    cursor:pointer;
+    color: #900000;
+}
+
+.secao1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.home-bibiloteca{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50vh;
+    align-items: center;
+}
+
+
+.bloco{
+width: 50vh;
+text-align: center;
+background-color:#900000;
+border-radius: 2em 1em;
+padding: 2em;
+color: #fff;
+font-weight: bold;
+}
+
+.bloco:hover{
+    cursor: pointer;
+}
+
+.bloco img{
+    height: 10em;
+    width: auto;
+    background-color: #aa1c1caf;
+    border-radius: 1em;
+}
+
+.bloco p{
+    text-align: center;
+}
+
